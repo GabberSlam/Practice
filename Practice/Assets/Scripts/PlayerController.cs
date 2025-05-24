@@ -38,6 +38,7 @@ public class PlayerController : MonoBehaviour
             gameManager.Win();
         }
         if (other.CompareTag("Danger")) { 
+            gameManager.Lose();
         }
     }
 }
